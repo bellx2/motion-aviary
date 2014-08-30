@@ -1,0 +1,12 @@
+# config.yml
+
+app:
+  identifier: motion-aviary
+
+testflight:
+  api_token: <API_TOKEN>
+  team_token: <TEAM_TOKEN>
+
+env:
+  AVIARY_KEY: <AVIARY_KEY>
+  AVIARY_SECRET: <AVIARY_SECRET>
