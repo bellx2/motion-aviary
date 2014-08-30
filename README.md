@@ -9,21 +9,22 @@ Basic image-editing sample project using [AviarySDK]
 
 ### 1.Download SDK
 
-以下のサイトよりデベロッパー登録をしてSDKをダウンロードします。
+Download AviarySDK from developers site.
+
 http://developers.aviary.com
 
 ### 2.Regist Application
 
-MyAppsからアプリケーション登録をすると、keyとsecretが表示されます。このキーをSDKで使います。
+Regist your application to get key and secret.
 
 ### 3.Copy files, Set key & secret
 
-下記の位置にSDKのファイルをコピーします。
+Copy SDK files to.
 
 * vender/AviarySDK.framework
 * resources/AviarySDKResources.bunlde
 
-その後、config.ymlにkeyとsecretを登録します。
+Don't forget setting key and secret to config.yml
 
 ### 4. Build & Run
 
@@ -33,9 +34,9 @@ MyAppsからアプリケーション登録をすると、keyとsecretが表示�
   rake
 ```
 
-## その他情報
+## Others
 
-Qiita:
+[Qiita:RubyMotionでAviaryを使って画像編集機能を簡単に追加する](http://qiita.com/bellx2/items/205ee4a46aa51bfc08df)
 
 [Aviary]: https://aviary.com
 [AviarySDK]: http://developers.aviary.com
